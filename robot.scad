@@ -2,35 +2,19 @@
 art2();
 base_r();
 
-eslabon1();
-  
+esl();
+translate([0,0,60]){
+  art();
+  esl();
   translate([0,0,60]){
     art();
-    eslabon2();
+    esl();
     }
+  }
 
-module eslabon1(){
-    cylinder(r1=6,r2=6,h=60);
-}
-module eslabon2(){
+module esl(){
   color("yellow",1.0)
-    cylinder(r1=6,r2=6,h=60);
-}
-module eslabon3(){
-  color("blue",1.0)
-    cylinder(r1=6,r2=6,h=60);
-}
-module eslabon4(){
-  color("green",1.0)
-    cylinder(r1=6,r2=6,h=60);
-}
-module eslabon5(){
-  color("redbrick",1.0)
-    cylinder(r1=6,r2=6,h=60);
-}
-module eslabon6(){
-  color("white",1.0)
-    cylinder(r1=6,r2=6,h=60);
+  cylinder(r1=6,r2=6,h=60);
 }
 
 module art2(){
