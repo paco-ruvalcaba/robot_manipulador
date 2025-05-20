@@ -1,8 +1,11 @@
 // Base
 art();
 base_r();
+eslabon1();
 
-
+module eslabon1(){
+    cylinder(r1=7,r2=7,h=50);
+}
 module art(){
     color("slategray",1.0)
     cylinder(8,5,5,center=true);
