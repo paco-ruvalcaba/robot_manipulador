@@ -1,7 +1,7 @@
 // Base
 art2();
 base_r();
-rot1 =  00;
+rot1 =  00+360*$t;
 rot2 =  90;
 rot3 = -90;
 rot4 =  90;
