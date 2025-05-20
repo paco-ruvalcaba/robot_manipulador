@@ -5,7 +5,7 @@ eslabon1();
 translate([0,0,45])
     art2();
 module eslabon1(){
-    cylinder(r1=7,r2=7,h=50);
+    cylinder(r1=6,r2=6,h=60);
 }
 module art(){
     color("slategray",1.0)
