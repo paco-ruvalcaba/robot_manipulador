@@ -2,6 +2,9 @@
 art2();
 base_r();
 rot1 = 0;
+rot2 = 0;
+rot3 = 0;
+rot4 = 0;
 
 rotate([0,0,rot1]){
   esl();
