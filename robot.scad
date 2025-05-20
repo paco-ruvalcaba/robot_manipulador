@@ -1,22 +1,25 @@
 // Base
 art2();
 base_r();
-rot1 = 0;
-rot2 = 0;
+rot1 = 60;
+rot2 = 45;
 rot3 = 0;
 rot4 = 0;
 
 rotate([0,0,rot1]){
   esl();
   translate([0,0,60]){
-    art();
-    esl();
-    translate([0,0,60]){
+    rotate([rot2,0,0])
+    {
       art();
       esl();
       translate([0,0,60]){
         art();
         esl();
+        translate([0,0,60]){
+          art();
+          esl();
+          }
         }
       }
     }
