@@ -2,11 +2,17 @@
 art2();
 base_r();
 eslabon1();
-translate([0,0,60])
+translate([0,0,60]){
     art();
+//    eslabon2();
+}
 module eslabon1(){
     cylinder(r1=6,r2=6,h=60);
 }
+module eslabon2(){
+    cylinder(r1=6,r2=6,h=60);
+}
+
 module art2(){
     color("slategray",1.0)
     cylinder(8,5,5,center=true);
