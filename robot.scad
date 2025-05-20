@@ -2,13 +2,20 @@
 art2();
 base_r();
 
-esl();
-translate([0,0,60]){
-  art();
+
+rotate([0,0,rot1]){
   esl();
   translate([0,0,60]){
     art();
     esl();
+    translate([0,0,60]){
+      art();
+      esl();
+      translate([0,0,60]){
+        art();
+        esl();
+        }
+      }
     }
   }
 
