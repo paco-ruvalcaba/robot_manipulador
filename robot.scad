@@ -1,7 +1,7 @@
 // Base
 art2();
 base_r();
-
+rot1 = 0;
 
 rotate([0,0,rot1]){
   esl();
