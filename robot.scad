@@ -13,7 +13,7 @@ module art2(){
 }
 module art(){
     color("slategray",1.0)
-    sphere(11);
+    sphere(13);
 }
 module base_r(){
     translate([0,0,-5]){
