@@ -1,9 +1,9 @@
 // Base
 art2();
 base_r();
-rot1 = 60;
-rot2 = 45;
-rot3 = 0;
+rot1 = 00;
+rot2 = 90;
+rot3 = -90;
 rot4 = 0;
 
 rotate([0,0,rot1]){
@@ -14,11 +14,13 @@ rotate([0,0,rot1]){
       art();
       esl();
       translate([0,0,60]){
-        art();
-        esl();
-        translate([0,0,60]){
+        rotate([rot3,0,0]){
           art();
           esl();
+          translate([0,0,60]){
+            art();
+            esl();
+            }
           }
         }
       }
