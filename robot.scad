@@ -1,6 +1,12 @@
 // Base
+art();
 base_r();
 
+
+module art(){
+    color("slategray",1.0)
+    cylinder(8,5,5,center=true);
+}
 module base_r(){
     translate([0,0,-5]){
         translate([0,0,-5])
